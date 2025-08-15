@@ -44,6 +44,11 @@ h1 {
     height: 80px;
 }
 
+img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
 p {
     padding-left: 20px;
     color: rgb(101, 177, 244);
@@ -67,6 +72,30 @@ a:hover {
     transition: color 0.3s ease-in-out , background-color 0.5s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-ul {
-    list-style-image: url("lalala.png");
+ol {
+    color: white;
+}
+
+.roblox {
+    text-align: center;
+}
+
+.roblox img {
+    
+    margin: 20px auto;
+    width: 500px;
+    height: 300px;
+    border-radius: 10%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.davibrito {
+    text-align: center;
+}
+
+.davibrito img  {
+    width: 300px;
+    height: 200px;
+    border-radius: 20%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
